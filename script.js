@@ -5,7 +5,6 @@ var paper = document.getElementById('paper')
 var scissors = document.getElementById('scissors')
 var random = document.getElementById('random')
 
-
 function rockPaperScissors(userChoice) {
     var choices = ['rock', 'scissors', 'paper']
     var computerChoice = choices[Math.floor(Math.random() * 3)]

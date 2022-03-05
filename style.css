@@ -1,0 +1,43 @@
+html {
+    background-color: #F5E663;
+    font-family: 'Comic Neue', cursive;
+}
+
+header h1 {
+    color: #8447FF;
+    font-size: 40px;
+    text-align: center;
+}
+
+#win-or-lose {
+    font-size: 25px;
+    text-align: center;
+    color: #0B2027;
+}
+
+#options-area-parent {
+    flex-direction: column;
+    height: 750;
+}
+
+#options-area {
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+}
+
+#first-row {
+    flex-direction: row;
+}
+
+#second-row {
+    flex-direction: row;
+}
+
+.option {
+    width: 330px;
+    height: 330px;
+    background-color: #FFAD69;
+    margin: 10px;
+    border-radius: 20px;
+}
